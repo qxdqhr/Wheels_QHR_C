@@ -13,18 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="C-List">
+      <UniqueIdentifier>{0e503365-e66d-41b2-85bc-9a422959b693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C-Stack">
+      <UniqueIdentifier>{72a149cb-9ab2-4a0d-a7f6-f648fc1e6359}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="List-C.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="List-C.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="List-C.c">
+      <Filter>C-List</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C-Stack.c">
+      <Filter>C-Stack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List-C.h">
+      <Filter>C-List</Filter>
+    </ClInclude>
+    <ClInclude Include="C-Stack.h">
+      <Filter>C-Stack</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

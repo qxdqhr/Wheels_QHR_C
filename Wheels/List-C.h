@@ -12,3 +12,4 @@ Node* FindNode(Node* phead, int n);
 void DeleteNode(Node** phead, Node** pend, int n);
 void DeleteAllNode(Node** phead, Node** pend);
 void UpdateNode(Node** phead, Node** pend, int n1, int n2);
+void List_CTest();

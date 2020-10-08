@@ -113,10 +113,10 @@ void UpdateNode(Node** phead, Node** pend, int n1,int n2)
 		pMark = pMark->pNext;
 	}
 }
-int main()
+void List_CTest()
 {
-	Node* phead=NULL;
-	Node* pend=NULL;
+	Node* phead = NULL;
+	Node* pend = NULL;
 	AddNode(&phead, &pend, CreateNode(1));
 	AddNode(&phead, &pend, CreateNode(2));
 	AddNode(&phead, &pend, CreateNode(3));
@@ -127,9 +127,8 @@ int main()
 	DeleteNode(&phead, &pend, 3);
 	ShowAllNode(phead);
 	//DeleteAllNode(&phead, &pend);
-	UpdateNode(&phead, &pend,2,5);
+	UpdateNode(&phead, &pend, 2, 5);
 	ShowAllNode(phead);
 	//Node*p= FindNode(phead, 3);
 	//printf("%d",p->nVal);
-	return 0;
 }
