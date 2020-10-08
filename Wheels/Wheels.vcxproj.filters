@@ -19,6 +19,9 @@
     <Filter Include="C-Stack">
       <UniqueIdentifier>{72a149cb-9ab2-4a0d-a7f6-f648fc1e6359}</UniqueIdentifier>
     </Filter>
+    <Filter Include="C-Graph">
+      <UniqueIdentifier>{ff7a0d2a-d85f-4627-97ff-b51bae7d3159}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -33,6 +36,12 @@
     <ClCompile Include="C-Stack.c">
       <Filter>C-Stack</Filter>
     </ClCompile>
+    <ClCompile Include="DFS.c">
+      <Filter>C-Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Graph.c">
+      <Filter>C-Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List-C.h">
@@ -40,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="C-Stack.h">
       <Filter>C-Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="C-Graph.h">
+      <Filter>C-Graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

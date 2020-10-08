@@ -139,11 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="C-Graph.h" />
     <ClInclude Include="C-Stack.h" />
     <ClInclude Include="List-C.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C-Stack.c" />
+    <ClCompile Include="Create_Graph.c" />
+    <ClCompile Include="DFS.c" />
     <ClCompile Include="List-C.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="test.cpp" />
