@@ -110,7 +110,11 @@ void ArrToStack(Stack** pstack,int *arr,int arrlen)
 		{
 			for (int i = 0; i < arrlen; i++)
 			{
-				PushNode(pstack, CreateNode_Stack(arr[i]));
+				if (arr)
+				{
+					PushNode(pstack, CreateNode_Stack(arr[i]));
+				}
+				
 			}
 		}
 	}

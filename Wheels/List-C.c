@@ -40,6 +40,7 @@ Node* FindNode(Node* phead,int n)
 		}
 		pMark = pMark->pNext;
 	}
+	return NULL;
 
 }
 void DeleteNode(Node** phead, Node** pend,int n)
