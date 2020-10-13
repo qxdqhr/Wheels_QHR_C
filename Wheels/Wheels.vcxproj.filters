@@ -25,6 +25,9 @@
     <Filter Include="C-Queue">
       <UniqueIdentifier>{634cac81-c85d-4d4c-b199-22f41cdef072}</UniqueIdentifier>
     </Filter>
+    <Filter Include="C-Sort">
+      <UniqueIdentifier>{ae925895-b412-4d6f-91b9-30780185e563}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -45,6 +48,12 @@
     <ClCompile Include="C-Queue.c">
       <Filter>C-Queue</Filter>
     </ClCompile>
+    <ClCompile Include="C-MergeSort.c">
+      <Filter>C-Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.c">
+      <Filter>C-Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List-C.h">
@@ -58,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="C-Queue.h">
       <Filter>C-Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>C-Sort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -143,13 +143,16 @@
     <ClInclude Include="C-Queue.h" />
     <ClInclude Include="C-Stack.h" />
     <ClInclude Include="List-C.h" />
+    <ClInclude Include="Sort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C-MergeSort.c" />
     <ClCompile Include="C-Queue.c" />
     <ClCompile Include="C-Stack.c" />
     <ClCompile Include="C-Graph.c" />
     <ClCompile Include="List-C.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sort.c" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

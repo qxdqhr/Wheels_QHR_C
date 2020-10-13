@@ -3,9 +3,11 @@ e:\wheels\wheels\wheels_qhr\wheels\debug\vc142.idb
 e:\wheels\wheels\wheels_qhr\wheels\debug\list-c.obj
 e:\wheels\wheels\wheels_qhr\wheels\debug\c-graph.obj
 e:\wheels\wheels\wheels_qhr\wheels\debug\c-stack.obj
+e:\wheels\wheels\wheels_qhr\wheels\debug\c-queue.obj
 e:\wheels\wheels\wheels_qhr\wheels\debug\test.obj
 e:\wheels\wheels\wheels_qhr\wheels\debug\main.obj
-e:\wheels\wheels\wheels_qhr\wheels\debug\c-queue.obj
+e:\wheels\wheels\wheels_qhr\wheels\debug\sort.obj
+e:\wheels\wheels\wheels_qhr\wheels\debug\c-mergesort.obj
 e:\wheels\wheels\wheels_qhr\debug\wheels.exe
 e:\wheels\wheels\wheels_qhr\debug\wheels.ilk
 e:\wheels\wheels\wheels_qhr\debug\wheels.pdb
